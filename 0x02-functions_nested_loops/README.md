@@ -1,0 +1,1 @@
+C programming to show functions in nusted loop
