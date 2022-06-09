@@ -1,1 +1,1 @@
-A Repository That Includes Commands of low level programming(C Programming)
+This is a repository that include directories related to Debugging
