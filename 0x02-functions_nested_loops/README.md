@@ -1,1 +1,1 @@
-C programming to show functions in nusted loop
+This is to use nested loop
