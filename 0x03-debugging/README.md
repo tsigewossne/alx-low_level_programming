@@ -1,1 +1,1 @@
-This directory is all about debugging in c programming
+this is a directory which includes scripts of debugging
