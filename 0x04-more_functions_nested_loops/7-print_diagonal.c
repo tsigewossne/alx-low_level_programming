@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _print_diagonal - construct a diagonal based on given parameters
+ * print_diagonal - construct a diagonal based on given parameters
  *@n : the number of times to print diagonal
  *
  * Return: empty
  */
-void _print_diagonal(int n)
+void print_diagonal(int n)
 {
 int x, y;
 if (n <= 0)
