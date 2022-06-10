@@ -7,9 +7,8 @@
  *
  * Return: print fizz for multiples of 3 and buzz for multiples of 5
  */
-void print_number(void)
+void print_number(int x)
 {
-int x;
 for (x = 0; x <= 100; x++)
 {
 if (x % 3 == 0)
