@@ -1,13 +1,16 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_number_9 - to print the fizz-buzz number
+ * main - entry point
  *
- *Description: print fizz for multiples of 3 and buzz for multiples of 5
+ * Description: prints the numbers 1 - 100 w/
+ * Fizz for multiples of 3, Buzz for multiples of 5,
+ * and FizzBuzz for multiples of both
  *
- * Return: Always 0
+ * Return: always 0
  */
-void print_number_9(void)
+int main(void)
 {
 int i;
 
@@ -27,4 +30,3 @@ printf(" ");
 printf("\n");
 return (0);
 }
-
