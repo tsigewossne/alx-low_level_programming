@@ -1,0 +1,13 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * mul - multiplication result of two numbers
+ *@x: the first number for multiplication
+ *@y: second number for multiplication
+ * Return: result for multiplication
+ */
+int mul(int x, int y)
+{
+return (x * y);
+}
