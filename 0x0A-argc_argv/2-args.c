@@ -1,29 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
- * main - Program that takes first two integer arguments and prints the product
+ * main - Prints all arguments passed into main
  * @argc: Number of command line arguments
  * @argv: Array name
- * Return: 1 if not enough arguments passed in, 0 otherwise
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-int i, j;
-if (argc == 1 || argc == 2)
-{
-printf("Error\n");
-return (1);
-}
-else
-{
-j = 1;
-for (i = 1; i < 3; i++)
-j *= atoi(argv[i]);
-printf("%d\n", j);
-}
-
+int i;
+for (i = 0; i < argc; i++)
+printf("%s\n", argv[i]);
 return (0);
 }
